@@ -1,6 +1,6 @@
 <img src="https://img.appsious.com/logo/seaborn.jpg" alt="Seaborn Logo" width="50%">
 
-# Let's create a cool matlabplot of the sample movies data in Atlas using Seaborn!
+# Create a cool matlabplot of the sample movies data in Atlas using Seaborn!
 Installing Seaborn
 Open up the terminal
 
