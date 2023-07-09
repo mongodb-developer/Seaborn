@@ -47,13 +47,13 @@ python
 import pandas as pd
 ```
 # Convert MongoDB documents to a pandas DataFrame
-df = pd.DataFrame(list(documents))
-Perform any necessary data cleaning and transformation on the DataFrame.
 ```
+df = pd.DataFrame(list(documents))
+```
+Perform any necessary data cleaning and transformation on the DataFrame.
+
 Use Seaborn to create visualizations based on the data in the DataFrame. For example, you can create a scatter plot as follows:
 
-python
-```
 # Use Seaborn to create visualizations
 ```
 sns.scatterplot(data=df, x='year', y='imdb.rating')
