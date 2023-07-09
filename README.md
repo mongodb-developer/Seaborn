@@ -65,3 +65,5 @@ sns.scatterplot(data=df, x='year', y='imdb.rating')
 plt.show()
 ```
 Run your Python script or execute the code in your Jupyter Notebook to visualize the data from the MongoDB Atlas Movies collection using Seaborn.
+
+[Seaborn Documentation](https://seaborn.pydata.org/)
