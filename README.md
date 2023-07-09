@@ -23,7 +23,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 ```
 Set up a connection to your MongoDB Atlas cluster using the connection string you copied earlier:
-```
+
 # Replace the connection string with your MongoDB Atlas connection string
 ```
 connection_string = "mongodb+srv://<username>:<password>@<cluster-address>/test?retryWrites=true&w=majority"
