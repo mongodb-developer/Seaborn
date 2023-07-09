@@ -1,5 +1,6 @@
 <img src="https://img.appsious.com/logo/seaborn.jpg" alt="Seaborn Logo" width="50%">
 
+# Lets create a cool visualization of the movies data using Seaborn!
 Installing Seaborn
 Open a command-line interface on your computer.
 
@@ -59,7 +60,7 @@ Use Seaborn to create visualizations based on the data in the DataFrame. For exa
 sns.scatterplot(data=df, x='year', y='imdb.rating')
 ```
 # Customize the plot as desired
-# For example, you can add labels, titles, change the color palette, etc.
+
 # Show the plot
 ```
 plt.show()
