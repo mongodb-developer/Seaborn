@@ -1,4 +1,4 @@
-#this version pulls on the first 100 records runs much faster
+#this version pulls just the first 100 records runs much faster
 from pymongo import MongoClient
 import pandas as pd
 import seaborn as sns
