@@ -40,9 +40,9 @@ Query the data from the collection:
 ``
 # Retrieve the data from MongoDB
 documents = collection.find({})
-``
+```
 Convert the MongoDB documents to a pandas DataFrame:
-python
+
 ```
 import pandas as pd
 ```
