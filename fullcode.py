@@ -1,3 +1,5 @@
+#works with mongodb atlas sample movie data set "sample_mflix"
+
 import sys
 from pymongo import MongoClient
 import pandas as pd
