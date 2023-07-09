@@ -1,8 +1,8 @@
 <img src="https://img.appsious.com/logo/seaborn.jpg" alt="Seaborn Logo" width="50%">
 
-# Lets create a cool visualization of the movies data using Seaborn!
+# Let's create a cool visualization of the movies data using Seaborn!
 Installing Seaborn
-Open a command-line interface on your computer.
+Open up the terminal
 
 Install Seaborn by running the following command:
 ```
