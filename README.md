@@ -36,9 +36,9 @@ Access the "movies" collection in the "sample_mflix" database:
 ```
 db = client['sample_mflix']
 collection = db['movies']
-``
+```
 Query the data from the collection:
-``
+```
 # Retrieve the data from MongoDB
 documents = collection.find({})
 ```
