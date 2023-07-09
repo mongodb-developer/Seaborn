@@ -55,7 +55,6 @@ Perform any necessary data cleaning and transformation on the DataFrame.
 
 Use Seaborn to create visualizations based on the data in the DataFrame. For example, you can create a scatter plot as follows:
 
-# Use Seaborn to create visualizations
 ```
 sns.scatterplot(data=df, x='year', y='imdb.rating')
 ```
