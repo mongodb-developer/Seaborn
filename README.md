@@ -59,7 +59,6 @@ Use Seaborn to create visualizations based on the data in the DataFrame. For exa
 ```
 sns.scatterplot(data=df, x='year', y='imdb.rating')
 ```
-# Customize the plot as desired
 
 # Show the plot
 ```
