@@ -4,17 +4,18 @@ Installing Seaborn
 Open a command-line interface on your computer.
 
 Install Seaborn by running the following command:
-``
+```
 pip3 install seaborn
-``
+```
 Configuring access to MongoDB Atlas Movies collection
 Sign in to your MongoDB Atlas account at https://www.mongodb.com/cloud/atlas (or create an account if you don't have one).
 
 Open your Python script or Jupyter Notebook.
 
 Install the PyMongo library if you haven't already by running the following command:
-
+```
 pip3 install pymongo
+
 Import the necessary libraries in your Python script:
 ```
 from pymongo import MongoClient
@@ -29,7 +30,6 @@ connection_string = "mongodb+srv://<username>:<password>@<cluster-address>/test?
 client = MongoClient(connection_string)
 ```
 Access the "movies" collection in the "sample_mflix" database:
-```
 
 # Replace the database and collection names as needed
 ```
