@@ -15,7 +15,7 @@ Open your Python script or Jupyter Notebook.
 Install the PyMongo library if you haven't already by running the following command:
 ```
 pip3 install pymongo
-
+```
 Import the necessary libraries in your Python script:
 ```
 from pymongo import MongoClient
@@ -23,7 +23,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 ```
 Set up a connection to your MongoDB Atlas cluster using the connection string you copied earlier:
-
+```
 # Replace the connection string with your MongoDB Atlas connection string
 ```
 connection_string = "mongodb+srv://<username>:<password>@<cluster-address>/test?retryWrites=true&w=majority"
