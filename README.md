@@ -16,23 +16,19 @@ Install the PyMongo library if you haven't already by running the following comm
 
 pip3 install pymongo
 Import the necessary libraries in your Python script:
-
-python
 ``
 from pymongo import MongoClient
 import seaborn as sns
 import matplotlib.pyplot as plt
 ``
 Set up a connection to your MongoDB Atlas cluster using the connection string you copied earlier:
-
-python
 ``
 # Replace the connection string with your MongoDB Atlas connection string
 connection_string = "mongodb+srv://<username>:<password>@<cluster-address>/test?retryWrites=true&w=majority"
 client = MongoClient(connection_string)
 Access the "movies" collection in the "sample_mflix" database:
 ``
-python
+
 ``
 # Replace the database and collection names as needed
 db = client['sample_mflix']
@@ -57,6 +53,7 @@ Use Seaborn to create visualizations based on the data in the DataFrame. For exa
 python
 ```
 # Use Seaborn to create visualizations
+```
 sns.scatterplot(data=df, x='year', y='imdb.rating')
 ```
 # Customize the plot as desired
@@ -65,6 +62,4 @@ sns.scatterplot(data=df, x='year', y='imdb.rating')
 ```
 plt.show()
 ```
-Customize the plot as desired, such as adding labels, titles, changing the color palette, etc.
-
 Run your Python script or execute the code in your Jupyter Notebook to visualize the data from the MongoDB Atlas Movies collection using Seaborn.
