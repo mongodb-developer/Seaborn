@@ -11,7 +11,7 @@ pip3 install seaborn
 Configuring access to MongoDB Atlas Movies collection
 Sign in to your MongoDB Atlas account at https://www.mongodb.com/cloud/atlas (or create an account if you don't have one).
 
-Open your Python script or Jupyter Notebook.
+Open your terminal or Jupyter Notebook.
 
 Install the PyMongo library if you haven't already by running the following command:
 ```
